@@ -1,5 +1,5 @@
 {
-  "name": "@cycjimmy/semantic-release-action",
+  "name": "jwiesler/semantic-release-action",
   "version": "4.1.0",
   "description": "GitHub Action for Semantic Release",
   "main": "index.js",
@@ -23,6 +23,6 @@
   "dependencies": {
     "@actions/core": "^1.10.0",
     "@cycjimmy/awesome-js-funcs": "^4.0.9",
-    "semantic-release": "git+https://github.com/jwiesler/semantic-release"
+    "semantic-release": "github:jwiesler/semantic-release"
   }
 }
