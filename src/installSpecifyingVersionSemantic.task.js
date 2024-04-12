@@ -13,6 +13,7 @@ module.exports = async () => {
     ? `@${semantic_version}`
     : '';
 
+  core.info("Installing jwiesler/semantic-release");
   const {stdout, stderr} = await exec(`npm install git+https://github.com/jwiesler/semantic-release --no-audit --silent`, {
     cwd: path.resolve(__dirname, '..')
   });
